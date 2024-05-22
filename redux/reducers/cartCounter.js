@@ -11,4 +11,4 @@ const ReduxCartCounter = (state = initialState, action) => {
   }
 };
 
-export default ReduxCartCounter;
+export default ReduxCartCounter
