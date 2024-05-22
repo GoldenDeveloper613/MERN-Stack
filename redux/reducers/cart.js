@@ -1,9 +1,9 @@
-const initialState = {
+const initState = {
     cart: [],
     qty: 1,
   };
   
-  const ReduxCart = (state = initialState, action) => {
+  const ReduxCart = (state = initState, action) => {
     switch (action.type) {
       case "ADD_TO_CART":
         return { ...state, cart: [...state.cart, action.payload] }; 
